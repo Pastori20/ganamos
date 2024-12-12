@@ -1,0 +1,109 @@
+
+  
+body{
+    font-family: "Bebas Neue", sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(40deg, rgba(2,0,36,1) 0%, rgba(78,9,121,1) 61%, rgba(146,3,211,1) 100%);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 2rem 0;
+}
+.logo img{
+    width: 25rem;
+}
+
+.main-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-title p {
+    margin: 0; 
+    font-size: 33px;
+}
+
+.main-title p:first-child {
+    color: white;
+}
+
+.main-title p:nth-child(2) {
+  color: white;
+}
+
+
+.main-title p:last-child {
+    color: rgba(146,3,211,1); 
+}
+
+.whatsapp{
+    margin: 3rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.button{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid rgba(146,3,211,1);;
+  color: rgba(146,3,211,1);;
+}
+.button:hover {
+  color: #000;
+}
+.burtton:hover:after {
+  width: 100%;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ffd819;
+}
+
+.button img {
+    width: 30px;
+    filter: invert(48%) sepia(98%) saturate(2955%) hue-rotate(111deg) brightness(107%) contrast(105%);
+}
+  
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .info p{
+    font-size: 20px;
+  }
+
+  .info h3{
+    font-size: 30px;
+    text-align: center;
+  }
+
